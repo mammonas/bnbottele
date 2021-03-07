@@ -12,7 +12,7 @@ if __name__ == "__main__":
     syms2 = sys.argv[2]
     token = sys.argv[3]
 
-    @tl.job(interval=timedelta(seconds=10))
+    @tl.job(interval=timedelta(seconds=3600))
     def execute_cron_job():
         bn_call.get_price(symbols=syms, token=token)
         bn_call.get_price(symbols=syms2, token=token)
