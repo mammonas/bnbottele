@@ -6,8 +6,8 @@ from colorama import Fore, Style
 GET_PRICE_ENDPOINT = 'https://binance.com/api/v3/ticker/24hr?symbol='
 TELE_END_POINT = 'https://api.telegram.org/bot'
 TELE_END_POINT_PARAMS = '/sendMessage?chat_id=-573320155&text='
-LAST_BUY_PRICE_BNB = 244.9068
-LAST_BUY_PRICE_BTC = 50800.00
+LAST_BUY_PRICE_BNB = 292.00
+LAST_BUY_PRICE_BTC = 55700.00
 highest_perc = None
 is_first_send_bnb = False
 is_first_send_btc = False
