@@ -15,7 +15,7 @@ if __name__ == "__main__":
     @tl.job(interval=timedelta(seconds=3600))
     def execute_cron_job():
         bn_call.get_price(symbols=syms, token=token)
-        bn_call.get_price(symbols=syms2, token=token)
+        # bn_call.get_price(symbols=syms2, token=token)
         # print(msg)
         # bn_call.send_message_to_bot(token=token, msg=msg)
         # bn_call.send_message_to_bot(token=token, msg=msg2)
